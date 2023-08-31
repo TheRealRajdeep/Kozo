@@ -1,0 +1,27 @@
+#testimonials {
+    padding: 50px;
+    text-align: center;
+}
+#testimonials h1 {
+    padding: 50px;
+}
+.reviews-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.profile-photo {
+    margin-bottom: 20px;
+    
+}
+
+.review p {
+    color: gray;
+}
+
+.review h3, .review p {
+    margin-bottom: 8px;
+}
+.five-star {
+    margin-left: 10px;
+}

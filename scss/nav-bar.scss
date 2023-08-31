@@ -1,0 +1,42 @@
+:root {
+  --primary-color: #4e21ba;
+}
+*, html, body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+}
+
+nav {
+  background-color: var(--primary-color);
+  position: fixed;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.main--logo {
+  width: 35%;
+  margin-left: 15%;
+
+}
+a {
+  color: white; 
+  text-decoration: none;
+}
+.nav-elements {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 32rem;
+  margin-top: 5px;
+}
+.nav-elements h3 {
+  font-size: 16px;
+  padding: 15px; 
+}
+.nav-elements p {
+  padding: 15px;
+}
+

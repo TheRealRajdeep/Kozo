@@ -1,0 +1,27 @@
+#contact {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 7rem;
+}
+#contact h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    width: 100%;
+    padding: 25px;
+}
+.contact-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contact-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8%;
+}
+#contact h3 {
+    white-space: nowrap;
+}
